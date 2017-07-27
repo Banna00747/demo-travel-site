@@ -24,7 +24,7 @@ class StickyHeader {
   }
 
   addSmoothScrolling() {
-  	this.headerLinks.SmoothScroll();
+  	this.headerLinks.smoothScroll();
   }
 
   createheaderWaypoint() {

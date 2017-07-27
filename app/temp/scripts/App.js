@@ -11120,6 +11120,7 @@ new _RevealOnScroll2.default((0, _jquery2.default)(".feature-item"), "85%");
 new _RevealOnScroll2.default((0, _jquery2.default)(".testimonial"), "60%");
 var stickyHeader = new _StickyHeader2.default();
 var modal = new _Modal2.default();
+debugger;
 
 /***/ }),
 /* 3 */
@@ -11288,7 +11289,7 @@ var StickyHeader = function () {
   }, {
     key: 'addSmoothScrolling',
     value: function addSmoothScrolling() {
-      this.headerLinks.SmoothScroll();
+      this.headerLinks.smoothScroll();
     }
   }, {
     key: 'createheaderWaypoint',
@@ -11763,13 +11764,13 @@ var Modal = function () {
   }, {
     key: "openModal",
     value: function openModal() {
-      this.modal.addClass("modal--is-visible");
+      this.modal.addClass("modal__is-visible");
       return false;
     }
   }, {
     key: "closeModal",
     value: function closeModal() {
-      this.modal.removeClass("modal--is-visible");
+      this.modal.removeClass("modal__is-visible");
     }
   }]);
 
